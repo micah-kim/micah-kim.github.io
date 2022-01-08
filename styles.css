@@ -104,6 +104,10 @@ df
     transition: all 0.3s ease;
 }
 
+.highlight {
+    border-bottom: 4px solid rgb(132, 0, 255);
+  }
+
 @media screen and (max-width: 960px) {
     .navbar__container {
         display: flex;
@@ -214,6 +218,14 @@ df
     font-size: 2.5rem;
 }
 
+#intro__heading2 {
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-size: 2.5rem;
+}
+
 .intro__container {
     display: flex;
     flex-direction: column;
@@ -266,7 +278,6 @@ df
     width: 700px;
     margin: 0 auto;
     transition: all 1s ease;
-    
 }
 
 .orange {
@@ -430,6 +441,63 @@ df
     color: #fff;
     padding: 0 15px;
     font-size: 1.7rem;
+}
+
+.project__folder {
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    flex-wrap: wrap;
+}
+
+.project__container {
+    background-color: #474747;
+    display: flex;
+    border-radius: 25px;
+    margin: 25px;
+    padding: 15px 15px 7px 15px;
+}
+
+.project__container2 {
+    background-color: #474747;
+    display: flex;
+    border-radius: 25px;
+    margin: 25px;
+    padding: 15px 15px 7px 15px;
+}
+
+.project__container:hover {
+    background-color: #429b3a;
+    transition: all 1s ease;
+}
+
+.project__container2:hover {
+    background-color: #c4a43b;
+    transition: all 1s ease;
+}
+
+.project__des {
+    padding: 0 25px;
+    color: #fff;
+}
+
+.project__link2 {
+    background-color: #ff814f; 
+    border-radius: 25px; 
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 10px 0 0;
+}
+
+.recycle-it {
+    width: 240px;
+    border-radius: 25px;
+}
+
+.augmented-museum {
+    height: 170px;
+    border-radius: 25px;
 }
 
 #contacts {
