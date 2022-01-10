@@ -58,7 +58,7 @@
     align-items: center;
     list-style: none;
 }
-df
+
 .navbar__item {
     height: 70px;
 }
@@ -256,7 +256,7 @@ df
 
 .intro1__description {
     color: #fff;
-    padding: 0 50px;
+    padding: 25px 50px;
     font-size: 1.7rem;
 }
 
@@ -270,7 +270,7 @@ df
 
 .intro2__description {
     color: #fff;
-    padding: 0 50px;
+    padding: 25px 50px;
     font-size: 1.7rem;
 }
 
@@ -306,6 +306,11 @@ df
 .experience__title {
     color: #fff;
     font-size: 1.7rem;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
 }
 
 .time__wrapper {
@@ -478,6 +483,7 @@ df
 
 .project__des {
     padding: 0 25px;
+    font-size: 1.2rem;
     color: #fff;
 }
 
@@ -575,4 +581,57 @@ df
 .copyright {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 960px) {
+    .intro1,
+    .intro2 {
+        flex-direction: column;
+    }
+
+    .center-line,
+    .circle-left,
+    .circle-right,
+    .bc-logo,
+    .bccc-logo {
+        display: none;
+    }
+
+    .timeline {
+        flex-direction: column;
+    }
+
+    .time__row1 {
+        justify-content: center;
+    }
+    
+    .time__row2 {
+        justify-content: center;
+    }
+
+    .time__wrapper .time__row {
+        background-color: #6b6b6b;
+        color: #fff;
+        padding: 25px;
+        border-radius: 25px;
+    }
+
+    .time__wrapper .time__row section {
+        background-color: #6b6b6b;
+        color: #fff;
+        padding: 25px;
+        border-radius: 25px;
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .time__wrapper .time__row .triangle-left,
+    .time__wrapper .time__row .triangle-right {
+        display: none;
+    }
+
+    .project__container,
+    .project__container2 {
+        flex-direction: column;
+    }
 }
