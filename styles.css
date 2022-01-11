@@ -492,6 +492,11 @@
     color: #fff;
     text-decoration: none;
     margin: 10px 10px 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.project__link2:hover {
+    background-color:#6b6b6b;
 }
 
 .recycle-it {
@@ -582,6 +587,10 @@
 }
 
 @media (max-width: 960px) {
+    .section {
+        padding: 50px;
+    }
+
     .intro1,
     .intro2 {
         flex-direction: column;
