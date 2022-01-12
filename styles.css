@@ -528,11 +528,13 @@
 .contacts__social__list {
     display: flex;
     justify-content:center;
+    align-items: center;
     list-style: none;
 }
 
 .social__logo {
     width: 50px;
+    transition: all 0.5s ease-in-out;
 }
 
 .social__item {
@@ -541,7 +543,6 @@
 
 .social__logo:hover {
     width: 60px;
-    transition: all 0.5s ease;
 }
 
 .contacts__social__title {
@@ -559,6 +560,7 @@
     padding: 15px;
     margin-right: 15px;
     border-radius: 15px;
+    text-decoration: none;
     background-color: #474747;
 }
 
