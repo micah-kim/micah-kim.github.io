@@ -242,7 +242,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 25px 0;
+    padding: 25px 0 25px 0;
 }
 
 .intro1__image {
@@ -269,6 +269,7 @@
 
 .intro2__description {
     color: #fff;
+    padding: 25px 50px;
     font-size: 1.7rem;
 }
 
@@ -589,6 +590,11 @@
 }
 
 @media (max-width: 960px) {
+    body {
+        padding: 25px;
+        background-color: #474747;
+    }
+
     .section {
         padding: 50px;
     }
