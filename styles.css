@@ -376,6 +376,7 @@
 }
 
 .bc-logo {
+    border-radius: 100%;
     position: absolute;
     width: 60px;
     left: calc(50% - 30px);
@@ -659,10 +660,10 @@
     position: fixed;
     bottom: 3em;
     right: 3em;
-    background-color: #6b6b6b;
+    background-color: #ff814f;
     color: #fff;
     border: none;
-    padding: 1em;
+    padding: 1.5em;
     border-radius: 5px;
     cursor: pointer;
     transition: all .3s ease-in-out;
@@ -679,3 +680,4 @@
 #back-to-top.visible {
     opacity: 1;
 }
+
